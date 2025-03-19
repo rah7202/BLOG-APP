@@ -16,7 +16,7 @@ const {
 const app = express();
 const PORT =  8000;
 
-mongoose.connect("")
+mongoose.connect("mongodb+srv://db_user:<db78798>@blogapp.tkh7n.mongodb.net/?retryWrites=true&w=majority&appName=BlogApp")
   .then((e) => console.log("MongoDB Connected"))
   .catch((err) => console.error("MongoDB connection error: ", err));
 
